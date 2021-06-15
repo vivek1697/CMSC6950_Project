@@ -1,10 +1,19 @@
 # CMSC6950_Project
-Project topic - Pymagicc: A Python wrapper for the simple climate model MAGICC
+Project topic - argopy: A Python library for Argo ocean data analysis
 Vivek Patel
 
 # Software Setup
-Install conda virtual Env and library dependencies/n
-conda create -n final_course_project pip
-conda activate final_course_project
-pip install pymagicc
-pip install matplotlib numpy seaborn notebook
+Install conda virtual Env and library dependencies
+```bashconda create -n course_project_env pip
+```
+
+# Activate Virtual Env
+```bashconda activate course_project_env
+```
+
+# Install other dependencies
+```bashpip install git+http://github.com/euroargodev/argopy.git@master
+    pip install matplotlib numpy seaborn notebook netCDF
+    pip install ipywidgets
+    jupyter nbextension enable --py widgetsnbextension
+```    
