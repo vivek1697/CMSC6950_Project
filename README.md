@@ -1,4 +1,5 @@
 # CMSC6950_Project
+
 Project topic - argopy: A Python library for Argo ocean data analysis
 Vivek Patel
 
@@ -16,4 +17,4 @@ Install conda virtual Env and library dependencies
     pip install matplotlib numpy seaborn notebook netCDF
     pip install ipywidgets
     jupyter nbextension enable --py widgetsnbextension
-```    
+```
