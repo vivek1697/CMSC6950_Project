@@ -1,4 +1,4 @@
-task1.png: task1.png task2.png
+task1.png: task1.py task2.png
 	@echo "Running Task-01 to create a csv file and plot for with the intermediate data file"
 	@python task1.py
 
