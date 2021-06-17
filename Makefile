@@ -11,7 +11,7 @@ clean:
 	rm *.png
 	rm *.csv
 
-.PHONY : clean
+
 
 
 
