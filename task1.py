@@ -33,11 +33,12 @@ ax = plt.axes(projection='3d')
 zdata = data['TEMPERATURE'] 
 xdata = data['LATITUDE']
 ydata = data['LONGITUDE']
-ax.scatter3D(xdata, ydata, zdata, c=zdata);
+p = ax.scatter3D(xdata, ydata, zdata, c=zdata);
 ax.set_xlabel("Latitude")
 ax.set_ylabel("Longitude")
 ax.set_zlabel("Temperature")
 plt.title("Scatter plot for Latitude, Longitude and Temperature of ARGO flot data ")
+fig.colorbar(p, ax=ax)
 plt.savefig('plot1.png')
 
 

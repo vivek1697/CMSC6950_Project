@@ -26,3 +26,8 @@ Install conda virtual Env and library dependencies
     jupyter nbextension enable --py widgetsnbextension
     pip install pqdm
 ```
+# Result of Plot 1
+![alt text](https://github.com/vivek1697/CMSC6950_Project/blob/main/plot1.png?raw=true)
+
+# Result of Plot 2
+![alt text](https://github.com/vivek1697/CMSC6950_Project/blob/main/plot2.png?raw=true)
