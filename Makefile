@@ -14,6 +14,8 @@ clean:
 	rm *.png
 	rm *.csv
 
-
+deep_clean:
+	@echo "remove pdf file from the Project"
+	rm *.pdf
 
 
